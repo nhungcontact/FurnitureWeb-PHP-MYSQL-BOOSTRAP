@@ -1,0 +1,92 @@
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #212529;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+    
+  }
+  
+  .sidenav a {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav h4{
+    padding: 0.1rem 1rem;
+  }
+  
+  /* .sidenav a:hover {
+    color: #f1f1f1;
+  } */
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    font-size: 33px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 10px;
+  }
+/*   
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */
+  .tab i{
+      font-size: 16px;
+  }
+  #sanpham p i.fa-solid{
+    font-size: 20px;
+  }
+  #sanpham p i.fa-solid:hover{
+    color: #e74c3c;
+  }
+  /* Change background color of buttons on hover */
+.tab .tablinks:hover {
+  color: #e74c3c;
+}
+
+/* Create an active/current tablink class */
+.tab .tablinks.active {
+  color: #e74c3c;
+}
+
+/* nut them san pham */
+.themsanpham{
+  padding: 5px 10px;
+  border: 1px solid #333;
+  color: #333;
+  text-decoration: none;
+}
+.themsanpham:hover{
+  background-color: #333;
+  color: #fff;
+}
+/* trang them san pham */
+#themsanpham label{
+  font-weight: 600;
+}
+.luusp{
+  border: 1px solid #333;
+  background: none;
+  border-radius: 2px;
+}
+.luusp:hover{
+  color:blue;
+  border: 1px solid blue;
+  border-radius: 2px;
+}

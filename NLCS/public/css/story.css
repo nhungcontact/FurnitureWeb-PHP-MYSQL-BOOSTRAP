@@ -1,0 +1,18 @@
+.read{
+    border: solid 1px #e74c3c;
+    padding: 8px;
+    background-color: #e74c3c;
+    border-radius: 10px;
+    color: white;
+}
+
+#more {display: none;}
+.fa-eye:hover{
+    color: rgb(255, 0, 0);
+}
+.fa-thumbs-up:hover{
+    color: blue;
+}
+.undefined{
+    text-align: justify;
+}
